@@ -1,0 +1,10 @@
+<edges>
+    <!-- Via principal antes do merge -->
+    <edge id="main_in" from="main_start" to="merge_point" priority="2" numLanes="1" speed="13.89"/>
+
+    <!-- Via principal depois do merge -->
+    <edge id="main_out" from="merge_point" to="main_end" priority="2" numLanes="1" speed="13.89"/>
+
+    <!-- Via de inserção -->
+    <edge id="ramp_in" from="ramp_start" to="merge_point" priority="1" numLanes="1" speed="11.11"/>
+</edges>

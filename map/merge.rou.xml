@@ -1,0 +1,15 @@
+<routes>
+    <vType  id="car"
+            accel="2.0"
+            decel="4.5"
+            sigma="0.0"
+            length="8.0"
+            width="2.0"
+            minGap="2.5"
+            maxSpeed="13.89"
+            color="red"
+            guiShape="passenger"/>
+
+    <route id="main_route" edges="main_in main_out"/>
+    <route id="ramp_route" edges="ramp_in main_out"/>
+</routes>

@@ -1,0 +1,9 @@
+<nodes>
+    <!-- Via principal -->
+    <node id="main_start" x="0" y="0" type="priority"/>
+    <node id="merge_point" x="300" y="0" type="priority"/>
+    <node id="main_end" x="600" y="0" type="priority"/>
+
+    <!-- Via de inserção -->
+    <node id="ramp_start" x="150" y="-80" type="priority"/>
+</nodes>
