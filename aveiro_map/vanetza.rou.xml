@@ -1,0 +1,18 @@
+<routes>
+    <vType id="car"
+           accel="2.0"
+           decel="4.5"
+           sigma="0.0"
+           length="4.5"
+           width="1.9"
+           minGap="2.5"
+           maxSpeed="13.89"
+           guiShape="passenger"/>
+
+    <route id="main_route" edges="560761994 1331698336 135424828"/>
+    <route id="ramp_route" edges="34126779 1331698336 135424828"/>
+
+    <vehicle id="Lead_Car" type="car" route="main_route" depart="0" departLane="1" departPos="180" departSpeed="11.0" color="white"/>
+    <vehicle id="Host_Car" type="car" route="main_route" depart="0" departLane="1" departPos="40" departSpeed="11.0" color="green"/>
+    <vehicle id="Merge_Car" type="car" route="ramp_route" depart="0" departLane="0" departPos="80" departSpeed="11.0" color="red"/>
+</routes>
