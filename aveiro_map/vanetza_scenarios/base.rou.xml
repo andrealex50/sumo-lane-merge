@@ -1,0 +1,11 @@
+<routes>
+    <vType id="lead_car" accel="2.2" decel="4.5" sigma="0.0" length="4.8" width="1.9" minGap="2.5" maxSpeed="13.89" guiShape="passenger/wagon"/>
+    <vType id="host_car" accel="2.0" decel="4.5" sigma="0.0" length="4.6" width="1.9" minGap="2.5" maxSpeed="13.89" guiShape="passenger/sedan"/>
+    <vType id="merge_car" accel="2.1" decel="4.5" sigma="0.0" length="4.5" width="1.9" minGap="2.5" maxSpeed="13.89" guiShape="passenger/sedan"/>
+    <route id="main_route" edges="560761994 1331698336 135424828"/>
+    <route id="ramp_route" edges="34126779 1331698336 135424828"/>
+
+    <vehicle id="Lead_Car" type="lead_car" route="main_route" depart="0" departLane="1" departPos="182" departSpeed="11.0" color="236,240,244"/>
+    <vehicle id="Host_Car" type="host_car" route="main_route" depart="0" departLane="1" departPos="48" departSpeed="11.0" color="58,200,125"/>
+    <vehicle id="Merge_Car" type="merge_car" route="ramp_route" depart="0" departLane="0" departPos="86" departSpeed="11.0" color="240,80,80"/>
+</routes>

@@ -1,0 +1,17 @@
+<routes>
+    <vType id="lead_car" accel="2.2" decel="4.5" sigma="0.0" length="4.8" width="1.9" minGap="2.5" maxSpeed="13.89" guiShape="passenger/wagon"/>
+    <vType id="host_car" accel="2.0" decel="4.5" sigma="0.0" length="4.6" width="1.9" minGap="2.5" maxSpeed="13.89" guiShape="passenger/sedan"/>
+    <vType id="main_car" accel="2.0" decel="4.5" sigma="0.0" length="4.4" width="1.85" minGap="2.5" maxSpeed="13.89" guiShape="passenger/hatchback"/>
+    <vType id="merge_car" accel="2.1" decel="4.5" sigma="0.0" length="4.5" width="1.9" minGap="2.5" maxSpeed="13.89" guiShape="passenger/sedan"/>
+    <vType id="ramp_car" accel="2.0" decel="4.5" sigma="0.0" length="4.3" width="1.85" minGap="2.5" maxSpeed="13.89" guiShape="passenger/hatchback"/>
+    <route id="main_route" edges="560761994 1331698336 135424828"/>
+    <route id="ramp_route" edges="34126779 1331698336 135424828"/>
+
+    <vehicle id="Lead_Car" type="lead_car" route="main_route" depart="0" departLane="1" departPos="194" departSpeed="10.9" color="236,240,244"/>
+    <vehicle id="Main_Blocker_1" type="main_car" route="main_route" depart="0" departLane="1" departPos="154" departSpeed="10.8" color="54,132,245"/>
+    <vehicle id="Main_Blocker_2" type="main_car" route="main_route" depart="0" departLane="1" departPos="114" departSpeed="10.6" color="20,184,166"/>
+    <vehicle id="Host_Car" type="host_car" route="main_route" depart="0" departLane="1" departPos="74" departSpeed="10.4" color="58,200,125"/>
+    <vehicle id="Main_Back" type="main_car" route="main_route" depart="0" departLane="0" departPos="42" departSpeed="10.9" color="96,112,255"/>
+    <vehicle id="Merge_Car" type="merge_car" route="ramp_route" depart="0" departLane="0" departPos="102" departSpeed="10.8" color="240,80,80"/>
+    <vehicle id="Ramp_Back" type="ramp_car" route="ramp_route" depart="0" departLane="0" departPos="56" departSpeed="10.3" color="245,158,50"/>
+</routes>

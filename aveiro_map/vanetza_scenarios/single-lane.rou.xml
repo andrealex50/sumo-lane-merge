@@ -1,0 +1,19 @@
+<routes>
+    <vType id="lead_car" accel="2.0" decel="4.5" sigma="0.0" length="4.6" width="1.85" minGap="2.5" maxSpeed="13.89" guiShape="passenger/sedan"/>
+    <vType id="host_car" accel="1.9" decel="4.5" sigma="0.0" length="4.6" width="1.85" minGap="2.5" maxSpeed="13.89" guiShape="passenger/sedan"/>
+    <vType id="main_car" accel="1.9" decel="4.5" sigma="0.0" length="4.4" width="1.8" minGap="2.5" maxSpeed="13.89" guiShape="passenger/hatchback"/>
+    <vType id="merge_car" accel="2.0" decel="4.5" sigma="0.0" length="4.5" width="1.85" minGap="2.5" maxSpeed="13.89" guiShape="passenger/sedan"/>
+    <vType id="ramp_car" accel="1.9" decel="4.5" sigma="0.0" length="4.3" width="1.8" minGap="2.5" maxSpeed="13.89" guiShape="passenger/hatchback"/>
+
+    <route id="main_single_route" edges="-251663459#1 111762619#0"/>
+    <route id="ramp_single_route" edges="1042215851 111762619#0"/>
+
+    <!-- One-lane merge: no adjacent lane exists, so vehicles can only negotiate speed. -->
+    <vehicle id="Lead_Car" type="lead_car" route="main_single_route" depart="0" departLane="0" departPos="180" departSpeed="10.8" color="236,240,244"/>
+    <vehicle id="Host_Car" type="host_car" route="main_single_route" depart="0" departLane="0" departPos="146" departSpeed="10.4" color="58,200,125"/>
+    <vehicle id="Main_Back" type="main_car" route="main_single_route" depart="0" departLane="0" departPos="112" departSpeed="10.2" color="96,112,255"/>
+
+    <vehicle id="Merge_Car" type="merge_car" route="ramp_single_route" depart="0" departLane="0" departPos="138" departSpeed="10.8" color="240,80,80"/>
+    <vehicle id="Ramp_Merge_2" type="ramp_car" route="ramp_single_route" depart="0" departLane="0" departPos="108" departSpeed="10.5" color="245,158,50"/>
+    <vehicle id="Ramp_Back" type="ramp_car" route="ramp_single_route" depart="0" departLane="0" departPos="78" departSpeed="10.2" color="14,165,233"/>
+</routes>
