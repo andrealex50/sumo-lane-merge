@@ -18,6 +18,6 @@
     <vehicle id="Ramp_Merge_2" type="ramp_car" route="ramp_single_route" depart="0" departLane="0" departPos="100" departSpeed="10.5" color="245,158,50"/>
     <vehicle id="Ramp_Merge_3" type="ramp_car" route="ramp_single_route" depart="0" departLane="0" departPos="76" departSpeed="10.5" color="240,105,70"/>
     <vehicle id="Ramp_Merge_4" type="ramp_car" route="ramp_single_route" depart="0" departLane="0" departPos="52" departSpeed="10.5" color="220,90,130"/>
-    <vehicle id="Ramp_Merge_5" type="ramp_car" route="ramp_single_route" depart="0" departLane="0" departPos="28" departSpeed="10.5" color="168,85,247"/>
-    <vehicle id="Ramp_Back" type="ramp_car" route="ramp_single_route" depart="0" departLane="0" departPos="8" departSpeed="10.2" color="14,165,233"/>
+    <vehicle id="Ramp_Merge_5" type="ramp_car" route="ramp_single_route" depart="0" departLane="0" departPos="24" departSpeed="10.2" color="168,85,247"/>
+    <vehicle id="Ramp_Back" type="ramp_car" route="ramp_single_route" depart="0" departLane="0" departPos="2" departSpeed="9.8" color="14,165,233"/>
 </routes>
