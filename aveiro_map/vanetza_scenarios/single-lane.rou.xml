@@ -8,16 +8,21 @@
     <route id="main_single_route" edges="-251663459#1 111762619#0"/>
     <route id="ramp_single_route" edges="1042215851 111762619#0"/>
 
-    <!-- One-lane merge: no adjacent lane exists, so vehicles can only negotiate speed. -->
-    <vehicle id="Lead_Car" type="lead_car" route="main_single_route" depart="0" departLane="0" departPos="210" departSpeed="10.8" color="236,240,244"/>
-    <vehicle id="Host_Car" type="host_car" route="main_single_route" depart="0" departLane="0" departPos="182" departSpeed="10.4" color="58,200,125"/>
-    <vehicle id="Main_Merge_3" type="main_car" route="main_single_route" depart="0" departLane="0" departPos="120" departSpeed="10.4" color="96,112,255"/>
-    <vehicle id="Main_Back" type="main_car" route="main_single_route" depart="0" departLane="0" departPos="70" departSpeed="10.2" color="148,163,184"/>
+    <!-- Main road vehicles (6 vehicles, spaced along the main road) -->
+    <vehicle id="Lead_Car" type="lead_car" route="main_single_route" depart="0" departLane="0" departPos="220" departSpeed="10.8" color="236,240,244"/>
+    <vehicle id="Main_Front" type="main_car" route="main_single_route" depart="0" departLane="0" departPos="210" departSpeed="10.6" color="100,180,255"/>
+    <vehicle id="Host_Car" type="host_car" route="main_single_route" depart="0" departLane="0" departPos="175" departSpeed="10.4" color="58,200,125"/>
+    <vehicle id="Main_Mid" type="main_car" route="main_single_route" depart="0" departLane="0" departPos="140" departSpeed="10.4" color="96,112,255"/>
+    <vehicle id="Main_Back" type="main_car" route="main_single_route" depart="0" departLane="0" departPos="100" departSpeed="10.2" color="148,163,184"/>
+    <vehicle id="Main_Tail" type="main_car" route="main_single_route" depart="0" departLane="0" departPos="60" departSpeed="10.0" color="180,140,200"/>
 
-    <vehicle id="Merge_Car" type="merge_car" route="ramp_single_route" depart="0" departLane="0" departPos="124" departSpeed="10.8" color="240,80,80"/>
-    <vehicle id="Ramp_Merge_2" type="ramp_car" route="ramp_single_route" depart="0" departLane="0" departPos="100" departSpeed="10.5" color="245,158,50"/>
-    <vehicle id="Ramp_Merge_3" type="ramp_car" route="ramp_single_route" depart="0" departLane="0" departPos="76" departSpeed="10.5" color="240,105,70"/>
-    <vehicle id="Ramp_Merge_4" type="ramp_car" route="ramp_single_route" depart="0" departLane="0" departPos="52" departSpeed="10.5" color="220,90,130"/>
-    <vehicle id="Ramp_Merge_5" type="ramp_car" route="ramp_single_route" depart="0" departLane="0" departPos="28" departSpeed="10.5" color="168,85,247"/>
-    <vehicle id="Ramp_Back" type="ramp_car" route="ramp_single_route" depart="0" departLane="0" departPos="8" departSpeed="10.2" color="14,165,233"/>
+    <!-- Ramp vehicles (8 vehicles, spaced along the ramp) -->
+    <vehicle id="Merge_Car" type="merge_car" route="ramp_single_route" depart="0" departLane="0" departPos="160" departSpeed="10.8" color="240,80,80"/>
+    <vehicle id="Ramp_Merge_2" type="ramp_car" route="ramp_single_route" depart="0" departLane="0" departPos="134" departSpeed="10.5" color="245,158,50"/>
+    <vehicle id="Ramp_Merge_3" type="ramp_car" route="ramp_single_route" depart="0" departLane="0" departPos="108" departSpeed="10.5" color="240,105,70"/>
+    <vehicle id="Ramp_Merge_4" type="ramp_car" route="ramp_single_route" depart="0" departLane="0" departPos="82" departSpeed="10.5" color="220,90,130"/>
+    <vehicle id="Ramp_Merge_5" type="ramp_car" route="ramp_single_route" depart="0" departLane="0" departPos="56" departSpeed="10.5" color="168,85,247"/>
+    <vehicle id="Ramp_Merge_6" type="ramp_car" route="ramp_single_route" depart="0" departLane="0" departPos="34" departSpeed="10.3" color="255,160,180"/>
+    <vehicle id="Ramp_Merge_7" type="ramp_car" route="ramp_single_route" depart="0" departLane="0" departPos="14" departSpeed="10.0" color="120,220,160"/>
+    <vehicle id="Ramp_Back" type="ramp_car" route="ramp_single_route" depart="1" departLane="0" departPos="5" departSpeed="9.8" color="14,165,233"/>
 </routes>
