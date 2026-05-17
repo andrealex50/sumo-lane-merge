@@ -9,12 +9,12 @@
     <route id="main_route" edges="560761994 1331698336 135424828"/>
     <route id="ramp_route" edges="34126779 1331698336 135424828"/>
 
-    <vehicle id="Lead_Car" type="lead_car" route="main_route" depart="0.0" departLane="1" departPos="190" departSpeed="8.5" color="236,240,244"/>
+    <vehicle id="Lead_Car" type="lead_car" route="main_route" depart="0.0" departLane="0" departPos="190" departSpeed="8.5" color="236,240,244"/>
     <vehicle id="Main_Front_Left" type="main_car" route="main_route" depart="0.0" departLane="0" departPos="164" departSpeed="8.3" color="54,132,245"/>
-    <vehicle id="Main_Mid_Right" type="main_car" route="main_route" depart="0.0" departLane="1" departPos="126" departSpeed="8.2" color="20,184,166"/>
-    <vehicle id="Host_Car" type="host_car" route="main_route" depart="0.0" departLane="1" departPos="84" departSpeed="8.0" color="58,200,125"/>
+    <vehicle id="Main_Mid_Right" type="main_car" route="main_route" depart="0.0" departLane="0" departPos="126" departSpeed="8.2" color="20,184,166"/>
+    <vehicle id="Host_Car" type="host_car" route="main_route" depart="0.0" departLane="0" departPos="84" departSpeed="8.0" color="58,200,125"/>
     <vehicle id="Main_Back_Left" type="main_car" route="main_route" depart="0.0" departLane="0" departPos="54" departSpeed="8.1" color="96,112,255"/>
-    <vehicle id="Main_Back_Right" type="support_car" route="main_route" depart="0.0" departLane="1" departPos="24" departSpeed="8.0" color="105,190,120"/>
+    <vehicle id="Main_Back_Right" type="support_car" route="main_route" depart="0.0" departLane="0" departPos="24" departSpeed="8.0" color="105,190,120"/>
 
     <vehicle id="Merge_Car" type="merge_car" route="ramp_route" depart="0.0" departLane="0" departPos="112" departSpeed="8.0" color="240,80,80"/>
     <vehicle id="Ramp_Merge_2" type="ramp_car" route="ramp_route" depart="1.5" departLane="0" departPos="88" departSpeed="8.0" color="245,158,50"/>
