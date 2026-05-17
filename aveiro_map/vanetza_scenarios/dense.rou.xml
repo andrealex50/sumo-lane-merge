@@ -16,10 +16,10 @@
     <vehicle id="Main_Back_Left" type="main_car" route="main_route" depart="0.0" departLane="0" departPos="54" departSpeed="8.1" color="96,112,255"/>
     <vehicle id="Main_Back_Right" type="support_car" route="main_route" depart="0.0" departLane="0" departPos="24" departSpeed="8.0" color="105,190,120"/>
 
-    <vehicle id="Merge_Car" type="merge_car" route="ramp_route" depart="0.0" departLane="0" departPos="112" departSpeed="8.0" color="240,80,80"/>
-    <vehicle id="Ramp_Merge_2" type="ramp_car" route="ramp_route" depart="1.5" departLane="0" departPos="88" departSpeed="8.0" color="245,158,50"/>
-    <vehicle id="Ramp_Merge_3" type="ramp_car" route="ramp_route" depart="3.0" departLane="0" departPos="64" departSpeed="8.0" color="240,105,70"/>
-    <vehicle id="Ramp_Merge_4" type="ramp_car" route="ramp_route" depart="4.5" departLane="0" departPos="40" departSpeed="8.0" color="220,90,130"/>
-    <vehicle id="Ramp_Merge_5" type="ramp_car" route="ramp_route" depart="6.0" departLane="0" departPos="18" departSpeed="8.0" color="168,85,247"/>
-    <vehicle id="Ramp_Back" type="support_car" route="ramp_route" depart="8.0" departLane="0" departPos="6" departSpeed="8.0" color="14,165,233"/>
+    <vehicle id="Merge_Car" type="merge_car" route="ramp_route" depart="0.0" departLane="0" departPos="130" departSpeed="9.0" color="240,80,80"/>
+    <vehicle id="Ramp_Merge_2" type="ramp_car" route="ramp_route" depart="0.0" departLane="0" departPos="95" departSpeed="8.5" color="245,158,50"/>
+    <vehicle id="Ramp_Merge_3" type="ramp_car" route="ramp_route" depart="0.0" departLane="0" departPos="65" departSpeed="8.0" color="240,105,70"/>
+    <vehicle id="Ramp_Merge_4" type="ramp_car" route="ramp_route" depart="0.0" departLane="0" departPos="35" departSpeed="8.0" color="220,90,130"/>
+    <vehicle id="Ramp_Merge_5" type="ramp_car" route="ramp_route" depart="0.0" departLane="0" departPos="10" departSpeed="8.0" color="168,85,247"/>
+    <vehicle id="Ramp_Back" type="support_car" route="ramp_route" depart="1.0" departLane="0" departPos="0" departSpeed="8.0" color="14,165,233"/>
 </routes>
